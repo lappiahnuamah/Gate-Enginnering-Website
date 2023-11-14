@@ -1,0 +1,32 @@
+
+.red {
+    height: 5px;
+    width: 100px;
+    position: relative;
+    left: 200px;
+    top: 10px;
+    margin: auto;
+    background-color: red;
+}
+
+
+.blue {
+    height: 5px;
+    width: 200px;
+    margin: auto;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    background-color: blue;
+}
+
+
+.green {
+    height: 5px;
+    width: 200px;
+    position: relative;
+    left: 400px;
+    bottom: 16px;
+    background-color: rgb(13, 112, 63);
+}
+

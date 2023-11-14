@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Frontend Bootcamp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="traversestyle.css">
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="nav navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top">
+        <div class="container">
+            <img src="images/bapt-logo.png" alt="" srcset="" style="width: 30px;" class="navbar-brand">
+            <a href="#" class="navbar-brand">Gates Engineering</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">CONTACTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">PROJECTS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- carousel  -->
+    <section class="mb-5">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="car3.jpg" class="w-100 d-block img-fluid" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="car4.jpg" class="w-100 d-block img-fluid" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="car1.jpg" class="w-100 d-block img-fluid" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="car2.jpg" class="w-100 d-block img-fluid" alt="Third slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- showcase section  -->
+    <section class="p-5 p-lg-0 pt-lg-5 text-center text-dark text-sm-start">
+       <div class="container">
+        <div class="col-md text-center">
+            <h2 class="text-danger">OUR COMPANY'S PROFILE</h2>
+            <h1 class="mb-3">Our Top Company Service</h1>
+            <div class="mb-3 line ms-auto">
+                <span><hr class="red"><hr class="blue"><hr class="green"></span>
+            </div>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quo iure debitis nobis officiis? Necessitatibus at rerum maiores nulla molestias
+                 repellat quas voluptatibus quidem deserunt magni temporibus assumenda nobis alias,
+                  possimus minima praesentium illo iste fugit pariatur nam. Cum incidunt voluptates 
+                  non reiciendis, hic exercitationem in voluptatem ducimus harum delectus blanditiis!
+            </p>
+        </div>
+       </div>
+    </section>
+
+   <!-- input group of the services-->
+   <section class="p-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md">
+                <div class="card bg-light text-dark">
+                    <div class="card-body text-center">
+                        <img src="car1.jpg" alt="" class="card-image img-fluid">
+                        <div class="h1 mb-2 d-flex py-1">
+                            <i class="bi bi-laptop"></i>
+                            <h3 class="card-title px-3 pt-2">Environmental</h3>
+                        </div>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Blanditiis eos veniam fuga ducimus recusandae, suscipit 
+                            quae fugit similique hic neque.
+                        </p>
+                        <a href="#" class="btn btn-danger">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-light text-dark">
+                    <div class="card-body text-center">
+                        <img src="car2.jpg" alt="" class="card-image img-fluid">
+                        <div class="h1 mb-2 d-flex py-1">
+                            <i class="bi bi-laptop"></i>
+                            <h3 class="card-title px-3 pt-2">Biomedical</h3>
+                        </div>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Blanditiis eos veniam fuga ducimus recusandae, suscipit 
+                            quae fugit similique hic neque.
+                        </p>
+                        <a href="#" class="btn btn-warning">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-light text-dark">
+                    <div class="card-body text-center">
+                        <img src="car1.jpg" alt="" class="card-image img-fluid">
+                        <div class="h1 mb-2 d-flex py-1">
+                            <i class="bi bi-laptop"></i>
+                            <h3 class="card-title px-3 pt-2">Mechanical</h3>
+                        </div>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Blanditiis eos veniam fuga ducimus recusandae, suscipit 
+                            quae fugit similique hic neque.
+                        </p>
+                        <a href="#" class="btn btn-success">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-light text-dark">
+                    <div class="card-body text-center">
+                        <img src="car2.jpg" alt="" class="card-image img-fluid">
+                        <div class="h1 mb-2 d-flex py-1">
+                            <i class="bi bi-people"></i>
+                            <h3 class="card-title px-3 pt-2">Computer</h3>
+                        </div>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Blanditiis eos veniam fuga ducimus recusandae, suscipit 
+                            quae fugit similique hic neque.
+                        </p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
